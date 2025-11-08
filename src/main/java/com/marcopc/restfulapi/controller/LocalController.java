@@ -12,6 +12,8 @@ import com.marcopc.restfulapi.entity.Local;
 import com.marcopc.restfulapi.service.LocalService;
 
 @RestController
+@RequestMapping("/api")
+@CrossOrigin
 public class LocalController {
 
     @Autowired
